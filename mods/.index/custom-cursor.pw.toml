@@ -1,0 +1,16 @@
+filename = 'customcursor-forge-2.0.0-beta2+1.20.1.jar'
+name = 'Custom Cursor'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '968b5dfe99c4638e17c8528afb06a13400989319337baa5d1a06873cbbe7e3c9c864226a4a78a1e7068ee0110a32aec45a49fa89a8c116c30a624b43e86c6818'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yx7vS7Wl/versions/WK2Kb7xi/customcursor-forge-2.0.0-beta2%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Yx7vS7Wl'
+version = 'WK2Kb7xi'

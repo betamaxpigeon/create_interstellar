@@ -1,0 +1,16 @@
+filename = 'mekanism_lasers-1.0.10.jar'
+name = 'Mekanism Lasers'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ef2c02ea81563a8275a533e0ba35609bfd68c7a5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5870964
+project-id = 1060096

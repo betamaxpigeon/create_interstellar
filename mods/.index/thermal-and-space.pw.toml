@@ -1,0 +1,16 @@
+filename = 'Thermal And Space-1.20.1-1.0.3.jar'
+name = 'Thermal And Space'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6aaea38e77ae441479a00d6342e838bd8ddc7d19e6dcc4373ecc378b933f009aa6dd0a25b4e8fd0b33f4d7ce06ca47694ba1c61b25b4743f1f1eb7b1ff8c5187'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xBWXLTu7/versions/1yDOC4z1/Thermal And Space-1.20.1-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'xBWXLTu7'
+version = '1yDOC4z1'

@@ -1,0 +1,16 @@
+filename = 'create-stuff-additions1.20.1_v2.1.0.jar'
+name = 'Create Stuff & Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '165020b72403b58d1265685d5a13c3a32186c28ea95f3ebea3f677ff0cf3c271dbcbc701cfd2680fa846a2eb594f7d3c09c39f51cdd257b64c4e48fb108246aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aq9qUUQG/versions/Z3P99xA8/create-stuff-additions1.20.1_v2.1.0.jar'
+
+[update.modrinth]
+mod-id = 'aq9qUUQG'
+version = 'Z3P99xA8'

@@ -1,0 +1,16 @@
+filename = 'do_a_barrel_roll-forge-3.5.6+1.20.1.jar'
+name = 'Do a Barrel Roll'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f07294a0e43826c400d10fe52b6d3a5f58ba9c51eecd464f30957faae875d397a8fbfdd8b6e58989fc7ebfbb59f84b283eb7a83bebc906777d1a2b65336deec4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6FtRfnLg/versions/VH8QpKA5/do_a_barrel_roll-forge-3.5.6%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '6FtRfnLg'
+version = 'VH8QpKA5'

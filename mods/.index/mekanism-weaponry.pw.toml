@@ -1,0 +1,16 @@
+filename = 'mekanism_weaponry-1.0.3.jar'
+name = 'Mekanism Weaponry'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5b70e2c28ec485022f160ca86cf076c283cbd41a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6368845
+project-id = 1127676

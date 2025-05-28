@@ -1,0 +1,16 @@
+filename = 'jearchaeology-1.20.1-1.0.5.jar'
+name = 'Just Enough Archaeology'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '426931278c0b6248fc377552b9f99975128b8c4136d17ccabf51c127c618a8afe2c53897e0bcde56906652b46858114337d00245d339bb17ef78a2e9af2be7d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K0LQpdmm/versions/KXRCsq14/jearchaeology-1.20.1-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'K0LQpdmm'
+version = 'KXRCsq14'

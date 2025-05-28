@@ -1,0 +1,16 @@
+filename = 'CreateHeatJS-1.20.1-0.0.1.jar'
+name = 'Create Heat JS'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6bb379f112e0f3d4b196d4857873e9251b24eac35985b2389ab84a234213aebc3717960d6e3ee72ea325c603956f79ee48caac83cfc8bc6d74ca7218007a2292'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KNph12WD/versions/70J59rVJ/CreateHeatJS-1.20.1-0.0.1.jar'
+
+[update.modrinth]
+mod-id = 'KNph12WD'
+version = '70J59rVJ'

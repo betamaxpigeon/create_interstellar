@@ -1,0 +1,16 @@
+filename = 'sophisticatedstorage-1.20.1-1.3.31.1124.jar'
+name = 'Sophisticated Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9d315ab07f6645cde6e0b0da1296ef5a7c7a0d1e55e06080f00dd844ef11da5a3e83cefe3bdd28ffd071668ef16f435d675663c0c650c207edcbaa1576f942ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hMlaZH8f/versions/frDGv8Bw/sophisticatedstorage-1.20.1-1.3.31.1124.jar'
+
+[update.modrinth]
+mod-id = 'hMlaZH8f'
+version = 'frDGv8Bw'

@@ -1,0 +1,16 @@
+filename = 'crash_assistant-forge-1.19.2-1.20.1-1.7.7.jar'
+name = 'Crash Assistant'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b471929388e800a6dd5526cab223df0152cd31eaf7fa84dce412bf2048fff7f5cdd371cfa2e8783a4d5b62463d1f09c8d1541ed4759ef712c680cb223380a4b4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ix1qq8Ux/versions/X1WPDKqF/crash_assistant-forge-1.19.2-1.20.1-1.7.7.jar'
+
+[update.modrinth]
+mod-id = 'ix1qq8Ux'
+version = 'X1WPDKqF'

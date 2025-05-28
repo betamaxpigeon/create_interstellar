@@ -1,0 +1,16 @@
+filename = 'epictweaks-forge-1.20.1-1.0.2.jar'
+name = 'Epic Tweaks'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '531d7f5ace176d18ed93be224da92bfcd75da71d727088df5ead6dfbd301444ac109c37ca925abe4a8f299ced4241713f9d6f9ef78cd759c34c0c70a6e493954'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YHY8IhRT/versions/cyaXJWpe/epictweaks-forge-1.20.1-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'YHY8IhRT'
+version = 'cyaXJWpe'

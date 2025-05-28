@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:fission",
+  "input": {
+    "chemical": "mekanism:uranium_oxide",
+    "amount": 50
+    },
+  "output": {
+    "id": "kubejs:gas.plutonium_oxide",
+    "amount": 1
+    },
+  "heat": 2
+}

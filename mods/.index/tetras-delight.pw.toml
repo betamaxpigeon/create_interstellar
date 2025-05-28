@@ -1,0 +1,16 @@
+filename = 'tetrasdelight-1.20.1-1.jar'
+name = "Tetra's Delight"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '511ddeee2ec3daa8636daada7e193b5d61b8bcec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4825544
+project-id = 845576

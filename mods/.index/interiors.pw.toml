@@ -1,0 +1,16 @@
+filename = 'interiors-0.5.6+forge-mc1.20.1-local.jar'
+name = 'Create: Interiors'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1c84e2a566cc03fc88fc27a55dcbac7a85f91781c73a8993c9761ac94b13eef93b04a89ffecb75d94a07e367ee09e78d2f8dc1e99a06163fc60cddef708d91a7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/r4Knci2k/versions/sFv3NBS4/interiors-0.5.6%2Bforge-mc1.20.1-local.jar'
+
+[update.modrinth]
+mod-id = 'r4Knci2k'
+version = 'sFv3NBS4'

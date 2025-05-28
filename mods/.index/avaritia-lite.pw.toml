@@ -1,0 +1,16 @@
+filename = 'avaritialite-forge-1.20.1-1.10.2.jar'
+name = 'Avaritia Lite'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7adf617c3d0a60eb578f616b03277eae3fd32c88'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5255955
+project-id = 430116

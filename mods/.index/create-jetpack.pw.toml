@@ -1,0 +1,16 @@
+filename = 'create_jetpack-forge-4.4.0.jar'
+name = 'Create Jetpack'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '393a98dbfb3161d8d09b47d30bfed52503399f7d336ed53c32ef6d12af9c82de176f92760b9c31d514d48c9bb88a9cdbaa30354d33318288a114100828a70b14'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UbFnAd4l/versions/mRyKdLjW/create_jetpack-forge-4.4.0.jar'
+
+[update.modrinth]
+mod-id = 'UbFnAd4l'
+version = 'mRyKdLjW'

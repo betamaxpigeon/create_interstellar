@@ -1,0 +1,16 @@
+filename = 'tp_shooting-1.20.1-5.1.0-all.jar'
+name = 'Third Person Shooting: Zero'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7fd6ce5ceef4a5c1756e9c87b2b91c0ab6866cac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5780265
+project-id = 969378

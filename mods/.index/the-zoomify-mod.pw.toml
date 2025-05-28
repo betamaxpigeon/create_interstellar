@@ -1,0 +1,16 @@
+filename = 'zoomify-1.20.1-v1.0.jar'
+name = 'Zoomify!'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6c928555ed1057e8859629135c62dde9ec5e3b66'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5954182
+project-id = 1151584

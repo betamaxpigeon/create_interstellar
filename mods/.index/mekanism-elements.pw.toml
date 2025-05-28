@@ -1,0 +1,16 @@
+filename = 'MekanismScience-1.20.1-2.2.jar'
+name = 'Mekanism Elements'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c91e2743c58595e766d4bd9f09d0e0ece3933d35'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6421777
+project-id = 1103224

@@ -1,0 +1,16 @@
+filename = 'elytratrims-forge-3.5.7+1.20.1.jar'
+name = 'Elytra Trims'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4f57a9590bd188d10ecb504bd130fb8046f07bf5a20be469a19044885e20649fa0fbf717a01ee412c5e72ca475480da450d00ae0f25085a206c858a28e647c60'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XpzGz7KD/versions/7HHgNGAc/elytratrims-forge-3.5.7%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'XpzGz7KD'
+version = '7HHgNGAc'

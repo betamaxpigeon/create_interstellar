@@ -1,0 +1,16 @@
+filename = 'paxeljs-1.0.1-20.1.jar'
+name = 'PaxelJS'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd92570ff6fdfa50fb1a387610ecf776652aac6a561eb0e08a2e228587ac385f4a7d400c13475fbef0c729be1345c8d485a6721ad0568383315a6e35ff920bc61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/T0fiFtaZ/versions/SXkXMirA/paxeljs-1.0.1-20.1.jar'
+
+[update.modrinth]
+mod-id = 'T0fiFtaZ'
+version = 'SXkXMirA'

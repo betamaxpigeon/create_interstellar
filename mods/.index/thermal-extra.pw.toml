@@ -1,0 +1,16 @@
+filename = 'ThermalExtra-3.2.4-1.20.1.jar'
+name = 'Thermal: Extra'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2bf0f157ea8d625972cc43db2649c7fdd77d4cc282d87c37e689b3d71c586a3a35da50c2e77b7286bd45f6ff812d8a61515bfc64aab447ef49f4fb93b958abd8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QejnMYJo/versions/Wirw22wC/ThermalExtra-3.2.4-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'QejnMYJo'
+version = 'Wirw22wC'

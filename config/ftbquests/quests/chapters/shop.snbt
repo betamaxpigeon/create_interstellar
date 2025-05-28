@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	icon: "gtceu:rhodium_plate"
+	id: "767DAA9EAC6FF2FE"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:block/misc/titles/lv"
+			rotation: 0.0d
+			width: 1.1498297389330308d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/misc/titles/shop"
+			rotation: 0.0d
+			width: 13.155d
+			x: 1.5d
+			y: -8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "gtceu:basic_electronic_circuit"
+			id: "43121C9B5C08E679"
+			rewards: [{
+				id: "62736463D5069E6A"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "637071F2C7A0E0BE"
+				item: { Count: 16, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			title: "Basic Electronic Circuit"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:good_electronic_circuit"
+			id: "65256ADEE462B260"
+			rewards: [{
+				id: "063D602F6F71346C"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2195A2D86C8E8BF3"
+				item: { Count: 32, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "6B447EAF46935567"
+			rewards: [{
+				id: "3309644906B843D9"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4B9CC7F25648BD62"
+				item: { Count: 64, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:micro_processor_computer"
+			id: "3BA589816170561D"
+			rewards: [{
+				id: "38B1EABC023000EE"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "4AB98DE86B80FC70"
+				item: { Count: 128, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: "gtceu:micro_processor_mainframe"
+			id: "5C5BEBDC629E63A6"
+			rewards: [{
+				id: "66C8AB9C32DC7A59"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "4E8B3E3E87141FAC"
+				item: { Count: 256, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			icon: "gtceu:micro_processor"
+			id: "4F1D175CCF67391E"
+			rewards: [{
+				id: "377EAF0E50137CD5"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "4217AE8FCF7C94B4"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "3DFFB94AC90FB345"
+			rewards: [{
+				id: "47A5D1FE37D5AA42"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2366AA85B0294015"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "49817B26A8534783"
+			rewards: [{
+				id: "05EF2399DD2954B6"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3460149E2DB2A21B"
+				item: { Count: 16, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+	]
+	title: "Shop"
+}

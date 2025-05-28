@@ -1,0 +1,13 @@
+StartupEvents.registry('minecraft:block', event => {
+  event.create('creative_radioactive_waste_barrel')
+  .displayName('Creative Radioactive Waste Barrel')
+  .model('mekanism:block/radioactive_waste_barrel')
+  .blockEntity(entityInfo => {
+    //entityInfo.gasHandler(8192000)
+    entityInfo.inventory(9, 4)
+//    entityInfo.rightClickOpenInventory()
+      entityInfo.clientTick(20, 0, entity => {
+//        entity.level.addParticle
+      });
+  });
+});

@@ -1,0 +1,19 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	autoclaveToCrystalMaterialBlacklist = []
+	implosionToCrystalMaterialBlacklist = []
+	toMaterialMaterialBlacklist = []
+	toStorageBlockMaterialBlacklist = []
+	toNuggetMaterialBlacklist = []
+	toPlateMaterialBlacklist = []
+	toDensePlateMaterialBlacklist = []
+	toGearMaterialBlacklist = []
+	toRodMaterialBlacklist = []
+	smallDustPackingMaterialBlacklist = []
+	tinyDustPackingMaterialBlacklist = []
+	recyclingMaterialBlacklist = []
+

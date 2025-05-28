@@ -1,0 +1,37 @@
+ServerEvents.tags('mekanism:gas', event => {
+  event.add('kubejs:plutonium', 'mekanism:plutonium', 'kubejs:gas.plutonium_oxide')
+  event.add('mekanism:waste_barrel_decay_blacklist', 'kubejs:gas.plutonium_oxide')
+  event.add('kubejs:polonium', 'mekanism:polonium')
+})
+ServerEvents.tags('fluid', event => {
+  event.add('ad_astra:efficient_fuel', 'kubejs:fluid.bioethylene', 'kubejs:flowing_fluid.bioethylene', 'gtceu:rocket_fuel', 'gtceu:flowing_rocket_fuel', 'mekanismgenerators:fusion_fuel', 'mekanismgenerators:flowing_fusion_fuel')
+  event.add('ad_astra:fuel', 'kubejs:fluid.bioethylene', 'kubejs:flowing_fluid.bioethylene', 'gtceu:rocket_fuel', 'gtceu:flowing_rocket_fuel', 'mekanismgenerators:fusion_fuel', 'mekanismgenerators:flowing_fusion_fuel')
+})
+ServerEvents.tags('item', event => {
+  event.add('mekanism:enriched/prismarine', 'kubejs:item.enriched_prismarine')
+  event.add('gtceu:circuits/luv', 'kubejs:item.picochip_processor')
+  event.add('gtceu:circuits/zpm', 'kubejs:item.pico_processor')
+  event.add('gtceu:circuits/uv', 'kubejs:item.pico_processor_assembly')
+  event.add('gtceu:circuits/uhv', 'kubejs:item.pico_processor_computer')
+  event.add('gtceu:circuits/uev', 'kubejs:item.pico_processor_mainframe')
+  event.add('forge:frames/lead', 'tfmg:lead_frame')
+  event.add('forge:alloys/basic', 'minecraft:redstone', 'create:andesite_alloy')
+  event.add('mekanism:alloys/basic', 'create:andesite_alloy')
+  event.add('forge:biofuels', 'mekanism:bio_fuel')
+  event.add('forge:chorus', 'minecraft:chorus_flower', 'minecraft:popped_chorus_fruit', 'minecraft:chorus_plant', 'minecraft:chorus_fruit')
+  event.add('forge:dusts/beryllium', 'gtceu:beryllium_dust')
+  event.add('forge:gems/prismarine', 'minecraft:prismarine_shard')
+  event.remove('forge:dusts/prismarine', 'minecraft:prismarine_shard')
+  event.remove('supplementaries:hourglass_dusts', 'minecraft:prismarine_shard')
+  event.add('forge:dusts/netherrack', 'create:cinder_flour')
+})
+ServerEvents.tags('block', event => {
+  event.add('forge:frames/lead', 'tfmg:lead_frame')
+})
+ServerEvents.tags('mekanism:slurry', event => {
+  event.add('mekanism:clean/biomass', 'kubejs:slurry.pure_biomass')
+  event.add('mekanism:dirty/biomass', 'kubejs:slurry.impure_biomass')
+})
+ServerEvents.tags('mekanism:infuse_type', event => {
+  event.add('kubejs:prismarine', 'kubejs:infuse.prismarine')
+})

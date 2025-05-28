@@ -1,0 +1,16 @@
+StartupEvents.registry('block', event => {
+  event.create('compact_induction_matrix'/*, 'block_entity'*/)
+    .displayName('Compact Induction Matrix')
+    .soundType('metal')
+//    .entity(entity => {
+//      entity.energyHandler(2,147,483,647, 2,147,483,647, 2,147,483,647);
+//    });
+});
+/*
+StartupEvents.registry('minecraft:block_entity_type', event => {
+  event.create('compact_induction_matrix')
+    .entity('kubejs:compact_induction_matrix')
+    .energyHandler(2,147,483,647, 2,147,483,647, 2,147,483,647)
+    .itemHandler(2, 1);
+});
+*/

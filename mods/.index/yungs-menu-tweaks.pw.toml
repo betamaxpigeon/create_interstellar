@@ -1,0 +1,16 @@
+filename = 'YungsMenuTweaks-1.20.1-Forge-1.0.2.jar'
+name = "YUNG's Menu Tweaks"
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '63085c7e9b668cb381bb2c654953d17420fab93d4be661879251ebc98de90ae1452e51dc7df5450539f5d13b06f48f3fae03f1130e92ae55c2fb098c92684495'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Hcy2DFKF/versions/3FmFt8jI/YungsMenuTweaks-1.20.1-Forge-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'Hcy2DFKF'
+version = '3FmFt8jI'

@@ -1,0 +1,16 @@
+filename = 'JAOPCAGTCEu-1.20.1-2.1.1.8.jar'
+name = 'JAOPCAGT'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '86e7a0b9b5c2b60bd56823ddef0b48daf4ff5f2bfd174386a3d52fd4870a0ce1a178c8f33196e4a73a96e7e5077233fd788e955c2d1ecf520b6b199c74aecd23'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DFWm1IQL/versions/ZD11rjzN/JAOPCAGTCEu-1.20.1-2.1.1.8.jar'
+
+[update.modrinth]
+mod-id = 'DFWm1IQL'
+version = 'ZD11rjzN'

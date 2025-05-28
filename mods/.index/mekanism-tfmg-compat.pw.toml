@@ -1,0 +1,16 @@
+filename = 'mekanism_tfmg_compat-0.7-1.20.1.jar'
+name = 'Mekanism The Factory Must Grow Compatibility'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f235dd2b12f074277dc694581e5bb9fc9fc525c7c48e709d1f89458b8a89979d095f703cc7f832fd779661e4cfd32bfa6c9830a4d0ee729394ab299bba1b2c2c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bobSIZE9/versions/TTznjMxY/mekanism_tfmg_compat-0.7-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'bobSIZE9'
+version = 'TTznjMxY'

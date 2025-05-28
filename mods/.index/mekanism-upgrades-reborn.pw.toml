@@ -1,0 +1,16 @@
+filename = 'mekanismupgradesreborn-1.20.1-2.0.0.jar'
+name = 'Mekanism Upgrades: Reborn'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '23eb65b6a1dae173ba9d9df3b32471cc4e24be71'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6266834
+project-id = 1171619

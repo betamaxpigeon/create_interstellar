@@ -1,0 +1,16 @@
+filename = 'tacz-1.20.1-1.1.4-hotfix-all.jar'
+name = '[TaCZ] Timeless and Classics Zero'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3682fec3219190abce32f8113c0b6c2d12127abb86f76f025d6eeef3affd46c7a52771d1a071e0f6ca4fd5d59cc9888a912c6a91a7f646f2686fdcee0f435849'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SzzJttH8/versions/VIAwq0sR/tacz-1.20.1-1.1.4-hotfix-all.jar'
+
+[update.modrinth]
+mod-id = 'SzzJttH8'
+version = 'VIAwq0sR'

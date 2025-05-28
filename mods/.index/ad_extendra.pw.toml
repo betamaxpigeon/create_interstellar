@@ -1,0 +1,16 @@
+filename = 'ad_extendra-0.1.1.jar'
+name = 'Ad Extendra'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'ecac99ce55e308678570316e6e5b218d82a41ab3a95db73ced8237771cda58f269f587b7ff8c2bb2df8a4105fba9b35a4f861497c141170dec48d618d2bc0626'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UOZ8LNHE/versions/PpjgJXb2/ad_extendra-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'UOZ8LNHE'
+version = 'PpjgJXb2'

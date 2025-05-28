@@ -1,0 +1,16 @@
+filename = 'better_smithing_ui-forge-1.20+2.0.0.jar'
+name = 'Better Smithing UI'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '900b9b579f7d0d173a9f6f38c0a2e4584f27dc7b45b8cb9c109d916976534221c13d5ee5bd90e831163c82b71648a13247cf8a6c6fa497a541cd24a6e7b5bb9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Vt8TI045/versions/aYAKgt35/better_smithing_ui-forge-1.20%2B2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'Vt8TI045'
+version = 'aYAKgt35'

@@ -1,0 +1,16 @@
+filename = 'MinecraftCapes Forge 1.20.1-12.3.7.jar'
+name = 'MinecraftCapes'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2765ad80578766bec7e3f8b67351b8281a392408779f74d4e329001705ada5a29079240d9f847dbe7aa79b972965774c844054d18c3efe8575413f9307464aa0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9gNVPfzw/versions/qvD8LMWH/MinecraftCapes Forge 1.20.1-12.3.7.jar'
+
+[update.modrinth]
+mod-id = '9gNVPfzw'
+version = 'qvD8LMWH'

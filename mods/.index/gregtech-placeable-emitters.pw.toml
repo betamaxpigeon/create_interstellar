@@ -1,0 +1,16 @@
+filename = 'greg_emitters-1.20.1-1.0.9.jar'
+name = 'GregTech Placeable Emitters'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '61eb9df9877bea1bf30b730676e4029425ac9d34552e96c6acd80b0ba0ab2fa5e6d4d2e0b14eaacfb9d6f7983d31d353f4a9feb6dc94dbd53934340e73580027'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zFPjQErD/versions/q17d8KId/greg_emitters-1.20.1-1.0.9.jar'
+
+[update.modrinth]
+mod-id = 'zFPjQErD'
+version = 'q17d8KId'

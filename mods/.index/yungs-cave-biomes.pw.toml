@@ -1,0 +1,16 @@
+filename = 'YungsCaveBiomes-1.20.1-Forge-2.0.4.jar'
+name = "YUNG's Cave Biomes"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0b17ef358bb25080bf45035da1148ee0d490fd665ebb9e8b004b1db28cb8d37494a88282577aae57bf7e5e7dcd05aa09dbcd955b118dba91af4ee409a3fab1ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cs7iGVq1/versions/MZHSolSK/YungsCaveBiomes-1.20.1-Forge-2.0.4.jar'
+
+[update.modrinth]
+mod-id = 'cs7iGVq1'
+version = 'MZHSolSK'

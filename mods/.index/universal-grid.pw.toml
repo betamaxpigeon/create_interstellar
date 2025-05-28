@@ -1,0 +1,16 @@
+filename = 'universalgrid-1.20.1-1.1.jar'
+name = 'Universal Grid'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a70c721e06fc2a099f2045f3b9db335c1d749f068dcb582bbb0992d7f2f0fb4d793991d69d3177976dab40036eb969b610acfbb8d7cf4941392d7534d94fed2d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kpMfA312/versions/jl1ouh7x/universalgrid-1.20.1-1.1.jar'
+
+[update.modrinth]
+mod-id = 'kpMfA312'
+version = 'jl1ouh7x'

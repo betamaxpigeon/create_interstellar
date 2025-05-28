@@ -1,0 +1,16 @@
+filename = 'MekanismAdvancedCore-1.20.1-10.4.13.69.jar'
+name = 'Mekanism: Advanced Core'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0d92732434b79656d2f2a606edd172a5e5ed8e64e3f1ecb47bf4cd2ab18a8b6a1ad58e53a397be02792aeee76cd71eb0c553a2b5aaa1f1a6ff475c0f36a95a56'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tLC990qn/versions/EQKm6OlY/MekanismAdvancedCore-1.20.1-10.4.13.69.jar'
+
+[update.modrinth]
+mod-id = 'tLC990qn'
+version = 'EQKm6OlY'

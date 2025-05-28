@@ -1,0 +1,16 @@
+filename = 'pccard-1.20.1-1.0.14.jar'
+name = 'Programmed Circuit Card'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5deb88cd4ac73d14846c271ea7c36735af5299abbde5639979d39d984a79d353a323cc825d93bb054770764107617fe7d3cdcc9a9a48d28ed400229d00f71c65'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/C3Mtqx9z/versions/Pjf90wpR/pccard-1.20.1-1.0.14.jar'
+
+[update.modrinth]
+mod-id = 'C3Mtqx9z'
+version = 'Pjf90wpR'

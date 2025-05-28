@@ -1,0 +1,10 @@
+#Entity types that armor squash will not take effect on
+armor_squash_blacklist = ["minecraft:player", "minecraft:armor_stand", "dummmmmmy:target_dummy"]
+#If true, bolt action shotgun is bolt action, otherwise is shotgun
+ba_shotgun_is_ba = false
+#If true, Magic damage reduction affix will only work on #forge:is_magic damage types, instead of every armor-piercing damage types
+fix_magic_protection = true
+#Max fill amount of projection magic enchantment, per 2 ticks
+#Range: > 1
+projection_magic_max_fill_speed = 4
+

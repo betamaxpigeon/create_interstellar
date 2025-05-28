@@ -1,0 +1,16 @@
+filename = 'dg_js-1.20.1-1.2.1.jar'
+name = 'KubeJS Diesel Generators'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f1fb55341f4bf5d4a393f8b81b4121941c063475e822e8ed9d2fe6d41588b54b9571f94e2a554650670634a18e1e400c39787979b6d76af9915dff2a373ac6df'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/10UMLVgM/versions/3nBiRXYm/dg_js-1.20.1-1.2.1.jar'
+
+[update.modrinth]
+mod-id = '10UMLVgM'
+version = '3nBiRXYm'

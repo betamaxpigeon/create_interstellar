@@ -1,0 +1,16 @@
+filename = 'CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar'
+name = 'CosmeticArmours'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7f97ca4cd0babf0b13df2706d1356094caff3db2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6378888
+project-id = 630406

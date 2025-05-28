@@ -1,0 +1,16 @@
+filename = 'eup2p-2.0.1.jar'
+name = 'EUP2P'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1483190f784430eb5fe56c1cf34d1f50224f392735d43e4daac6a0bce6136f3e7009ed143e4733c06413d3b7ce3bf67d3a4508627af9a4a1f7cbbddd9c3ceed4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yoL9UPAM/versions/UtVj77bM/eup2p-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'yoL9UPAM'
+version = 'UtVj77bM'

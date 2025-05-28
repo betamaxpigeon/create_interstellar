@@ -1,0 +1,12 @@
+{
+  "pointer": {
+    "x": 0.5,
+    "y": 0.5,
+    "size": 32,
+    "enabled": true,
+    "identifier": {
+      "f_135804_": "cursorfolder",
+      "f_135805_": "highres.png"
+    }
+  }
+}

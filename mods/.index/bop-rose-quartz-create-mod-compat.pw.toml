@@ -1,0 +1,16 @@
+filename = 'bop_create_mod_rose_quartz-1.0.0.jar'
+name = "Biomes O' Plenty and Create Rose Quartz Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '197f46876161515696359b7b58b83fe6a567ca00ad5881a4bbe6a5ba110f7a03e7d13f4090f793ca754125a14c0eb5cdca81a1c36772eb11f5ad83ef685702bf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mksTBGrj/versions/FXqUvmIX/bop_create_mod_rose_quartz-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'mksTBGrj'
+version = 'FXqUvmIX'

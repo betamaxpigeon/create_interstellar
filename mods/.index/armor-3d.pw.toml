@@ -1,0 +1,16 @@
+filename = 'armor_3d-0.1.0-forge-1.20.1.jar'
+name = '3D Armor'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '0f9228acc31c30b88080fedc70b5e68ca31066e886f526ce20d63763e738c4354462db8a031dfe5202b6f3dc8995bdf1e30d77801c84c759ff09aa13f0e431d9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XhxKIfGG/versions/ABgTFOHA/armor_3d-0.1.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'XhxKIfGG'
+version = 'ABgTFOHA'

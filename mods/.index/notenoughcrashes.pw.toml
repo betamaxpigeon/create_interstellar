@@ -1,0 +1,16 @@
+filename = 'notenoughcrashes-4.4.7+1.20.1-forge.jar'
+name = 'Not Enough Crashes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9128836e8bed4ff60f5569b0541a132eafa009275657c6816792b210d31b8cb9f83afc9469335f0018890484c0b744b4ad0be865ee4f89ad665eac05ca27cafb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yM94ont6/versions/W6W0bVtN/notenoughcrashes-4.4.7%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'yM94ont6'
+version = 'W6W0bVtN'

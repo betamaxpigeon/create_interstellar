@@ -1,0 +1,16 @@
+filename = 'AEInfinityBooster-1.20.1-1.0.0+47.jar'
+name = 'AEInfinityBooster'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5bf37e0693199fd58a4b5ce16bfb20848a807458'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6220237
+project-id = 559313

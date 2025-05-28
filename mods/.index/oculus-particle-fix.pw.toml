@@ -1,0 +1,16 @@
+filename = 'oculusparticlefix-1.0.jar'
+name = 'Oculus Particle Fix'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19', '1.19.1', '1.19.2', '1.19.4', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '96b53a3aee12c853ea1d67e9d2db22b98ac467159722305ff8e03d80b14d98b965bc66ec31457ec622b2401334b255994bb0f450ae2bd71d12703f345aa67284'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OLnTZMb7/versions/TJQjGwos/oculusparticlefix-1.0.jar'
+
+[update.modrinth]
+mod-id = 'OLnTZMb7'
+version = 'TJQjGwos'

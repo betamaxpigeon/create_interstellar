@@ -1,0 +1,16 @@
+filename = 'MekanismExplosives-1.20.1-0.3.5.jar'
+name = 'Mekanism Explosives'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd85b012a092743bf11b10a2de0e1ef571fb59e34'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4823330
+project-id = 927162

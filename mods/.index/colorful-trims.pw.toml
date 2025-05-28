@@ -1,0 +1,16 @@
+filename = 'colorful-trims-1.6.jar'
+name = 'Colorful Trims'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5efdbe64ab734385c7a6ae785cbaa56f2f6a2848b61e64782055d1e588dd378eafce724f6e1e9954abba95f3d00dd692aa0e69522ceb85608898438e27354736'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hCf7CjRg/versions/sVLmcipz/colorful-trims-1.6.jar'
+
+[update.modrinth]
+mod-id = 'hCf7CjRg'
+version = 'sVLmcipz'

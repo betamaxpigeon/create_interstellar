@@ -1,0 +1,16 @@
+filename = 'monazite-1.20.1-1.1.6.jar'
+name = 'Monazite'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '048cdbb1f07382af709b06fa506e47cf903e745e09e124c9ee3bb4aafb801da661f43784cc6797981355c8ff48d23bb4efd44b851f5ea0108dc33443473b77ed'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KvSy350p/versions/bN9UefPT/monazite-1.20.1-1.1.6.jar'
+
+[update.modrinth]
+mod-id = 'KvSy350p'
+version = 'bN9UefPT'

@@ -1,0 +1,16 @@
+filename = 'epicfight-forge-20.9.7-1.20.1.jar'
+name = 'Epic Fight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9cc56587c828a02468bd74a4dd2ef2b4a628c45a86443300359a7ae4d912a51c2b338329f8cd4095de9273570fefc4aff96247c6e7a29dd28a4b66e278da88b2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vu3NZ5Ma/versions/s6BQ9MWw/epicfight-forge-20.9.7-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'vu3NZ5Ma'
+version = 's6BQ9MWw'

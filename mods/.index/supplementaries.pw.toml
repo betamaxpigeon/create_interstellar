@@ -1,0 +1,16 @@
+filename = 'supplementaries-1.20-3.1.26.jar'
+name = 'Supplementaries'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '56eefcf1fd712b61931fa54bbd4cb095dcee470da089c595f7ebd08c7bcc3bbeb5a5705922262ff25f74872ff870ed5e589a6233a6323c958df3cb305883ed49'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/PAtUBEPn/supplementaries-1.20-3.1.26.jar'
+
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'PAtUBEPn'

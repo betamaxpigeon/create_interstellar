@@ -1,0 +1,16 @@
+filename = 'create_connected-1.0.1-mc1.20.1-all.jar'
+name = 'Create: Connected'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aea9d581c75f2bb75e85bedef86d26a49d5f2f02af746263396d2f2c5a017ced398258694a52f2c571200cef2dcea18ad9a52df5d750583766e3e6eeaaeb2cc8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Vg5TIO6d/versions/2N1jRZB4/create_connected-1.0.1-mc1.20.1-all.jar'
+
+[update.modrinth]
+mod-id = 'Vg5TIO6d'
+version = '2N1jRZB4'

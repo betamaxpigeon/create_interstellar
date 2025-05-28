@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:block/chorus_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:block/chorus_coil_block_active"
+    }
+  }
+}

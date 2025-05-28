@@ -1,0 +1,16 @@
+filename = 'tfmgjs-1.20.1-1.2.0.jar'
+name = 'KubeJS TFMG'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e121792c7764dfd05378970bf9d48f33fb07ebf5129ac404e507ed23a5761b7350c9c7bbfb0129537a66d020b6512e049e944c6cc4e306fe41381e2cd35a764c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HXlL9LeK/versions/yzsdewhe/tfmgjs-1.20.1-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'HXlL9LeK'
+version = 'yzsdewhe'
