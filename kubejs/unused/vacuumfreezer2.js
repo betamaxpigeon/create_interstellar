@@ -1,6 +1,5 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
   event.create('space_freezing')
-//    .category('freezing')
     .setEUIO('in')
     .setMaxIOSize(2,2,2,2)
     .setSound(GTSoundEntries.COOLING)
