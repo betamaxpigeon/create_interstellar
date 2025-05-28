@@ -1,0 +1,2 @@
+#Mon Apr 28 19:47:46 EDT 2025
+shadowMapResolution=8192

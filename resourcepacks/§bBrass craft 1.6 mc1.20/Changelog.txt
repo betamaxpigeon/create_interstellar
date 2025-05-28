@@ -1,0 +1,5 @@
+version 1.6
+-Lang files fix
+-texturepack icon fix (again)
+-new icon
+-size fix
