@@ -163,10 +163,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .flags(plates, foil, dense_plate)
     .ore(true);
 
-  event.create('purest_plutonium')
+  event.create('plutonium244')
     .fluid()
     .dust()
-    .element(GTElements.get('purest_plutonium'))
+    .element(GTElements.get('plutonium244'))
     .iconSet(GTMaterialIconSet.RADIOACTIVE)
     .color(0xeb372a);
 
