@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('heavy_mixer')
-        .recipeType('heavy_mixer', 'true', 'true')
+        .recipeType('heavy_mixer', true, true)
         .tankScalingFunction(tier => tier * 3200)
         .workableCasingRenderer("gtceu:block/machines/mixer");
 });
