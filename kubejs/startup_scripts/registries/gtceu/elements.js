@@ -42,7 +42,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
   elem('prismarine', -1, -1, 'Ps');
   elem('debris', -1, -1, '?');
   elem('chorus', 136, 265, 'Ch');
-  elem('purest_plutonium', 94, 150, 'Pu²⁴⁴');
+  elem('plutonium244', 94, 150, 'Pu²⁴⁴');
   elem('polonium', 84, 126, 'Po²¹⁰');
   elem('duotonium', -1, -1, 'Du');
   elem('tritonium', -1, -1, 'To');
