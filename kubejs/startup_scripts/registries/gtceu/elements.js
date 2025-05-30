@@ -53,6 +53,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
   elem('radium', 88, 138, 'Ra²²⁶');
   elem('radium223', 88, 135, 'Ra²²³');
   elem('oganesson', 118, 176, 'Og²⁹⁴');
+  elem('mascoanzium', 119, 180, 'Mz²⁹⁹');
 })
 GTCEuStartupEvents.registry('gtceu:material', event => {
   GTMaterials.Lead.addFlags(frame)

@@ -129,11 +129,46 @@ function VHA(voltage) {
   return V;
 }
 
+function EU(tier) {
+  switch(tier) {
+      case 'ulv': 8
+      case 'lv': 32
+      case 'mv': 128
+      case 'hv': 512
+      case 'ev': 2048
+      case 'iv': 8192
+      case 'luv': 32768
+      case 'zpm': 131072
+      case 'uv': 524288
+      case 'uhv': 2097152
+      case 'uev': 8388608
+      case 'uiv': 33554432
+      case 'uxv': 134217728
+      case 'opv': 536870912
+      case 'max': 2147483640
+  }
+}
+
+function coil(tier) {
+  switch(tier) {
+      case 'cupronickel': 1799
+      case 'kanthal':
+      case 'nichrome':
+  }
+}
+//gas tiers
+const nitrogen = 'low'
+const helium = 'mid'
+const argon = 'high'
+const neon = 'higher'
+const krypton = 'highest'
+
 //Subscript Numbers
 //₀₁₂₃₄₅₆₇₈₉
 
 //Superscript Numbers
 //⁰¹²³⁴⁵⁶⁷⁸⁹
+
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
   event.create('calorite')
@@ -244,6 +279,17 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .flags(plates, fine_wire, dense_plate, foil, frame, rod, long_rod, gear, small_gear, rotor, round)
     .cableProperties(V('zpm'), 32, 4);
 
+  event.create('mascoanzium')
+    .ingot()
+    .fluid()
+    .element(GTElements.get('mascoanzium'))
+    .iconSet(GTMaterialIconSet.RADIOACTIVE)
+    .color(0xee00ff)
+    .flags(plates, foil, rod, long_rod, gear, small_gear)
+    .blastTemp(49999, krypton, VA(uxv))
+    .cableProperties(V('uiv'), 32, 4)
+    .rotorStats(64000, );
+
   event.create('uranium_triniobium')
     .ingot()
     .fluid()
@@ -268,7 +314,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .fluid()
     .polymer()
     .components('19x carbon', '14x hydrogen', '3x oxygen')
-    .formula('(C₁₉H₁₄O₃)n')
     .iconSet(GTMaterialIconSet.LIGNITE)
     .color(0xbfad8e)
     .flags(not_alloy, plates, rod, long_rod, ring, no_decomp);
