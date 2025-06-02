@@ -156,6 +156,11 @@ function coil(tier) {
       case 'nichrome':
   }
 }
+
+//Conversions
+const secondsToTicks = (seconds) => seconds * 20;
+const ticksToSeconds = (ticks) => ticks / 20;
+
 //gas tiers
 const nitrogen = 'low'
 const helium = 'mid'
@@ -338,16 +343,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('6x trinium', '2x naquadah', '1x carbon')
     .blastTemp(8747, neon, VA('uiv'), 1200);
 
-  event.create('ancient_alloy')
-    .ingot()
-    .fluid()
-    .components('20x purest_plutonium', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium')
-    .iconSet(GTMaterialIconSet.RADIOACTIVE)
-    .color(0x5E0044)
-    .flags(bolt_and_screw, dense_plate, fine_wire, foil, frame, gear, long_rod, plates, ring, rod, rotor, small_gear, spring, small_spring)
-    .blastTemp(49999, neon, VA('opv'), 200000)
-    .cableProperties(V('opv'), 4096, 0, true);
-
   event.create('chorus')
     .dust()
     .element(GTElements.get('chorus'))
@@ -473,4 +468,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .fluid()
     .components('3x calorite')
     .color(0xFFAD1F);
+
+  event.create('ancient_alloy')
+    .ingot()
+    .fluid()
+    .components('50x rocket_tier_4', '20x purest_plutonium', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium')
+    .iconSet(GTMaterialIconSet.RADIOACTIVE)
+    .color(0x5E0044)
+    .flags(bolt_and_screw, dense_plate, fine_wire, foil, frame, gear, long_rod, plates, ring, rod, rotor, small_gear, spring, small_spring)
+    .blastTemp(49999, neon, VA('opv'), 200000)
+    .cableProperties(V('opv'), 4096, 0, true);
 })
