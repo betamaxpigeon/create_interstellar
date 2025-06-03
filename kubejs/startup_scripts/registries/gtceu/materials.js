@@ -226,6 +226,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .color(0x24D496)
     .flags(frame, foil, plates, spring, small_spring, rod, long_rod);
 
+  event.create('mystery')
+    .dust()
+    .element(GTElements.get('mystery'))
+    .iconSet(GTMaterialIconSet.LIGNITE)
+    .color(0x8a7f4a)
+
   event.create('duotonium')
     .fluid()
     .element(GTElements.get('duotonium'))
@@ -472,7 +478,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
   event.create('ancient_alloy')
     .ingot()
     .fluid()
-    .components('50x rocket_tier_4', '20x purest_plutonium', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium')
+    .components('50x rocket_tier_4', '20x plutonium244', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium', '8x ognesseon')
     .iconSet(GTMaterialIconSet.RADIOACTIVE)
     .color(0x5E0044)
     .flags(bolt_and_screw, dense_plate, fine_wire, foil, frame, gear, long_rod, plates, ring, rod, rotor, small_gear, spring, small_spring)

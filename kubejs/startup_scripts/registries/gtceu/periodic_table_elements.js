@@ -9,14 +9,17 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     //Solid Properties
     GTMaterials.Radium.setProperty(PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Fermium.setProperty(PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Rubidium.setProperty(PropertyKey.DUST, new $DustProperty());
 
     //Blast Properties
-    //Example - GTMaterials.Material.setPropert
+    //Example - GTMaterials.Material.setProperty
 
     
     //Fluid Properties
     // Can be LIQUID, GAS, PLASMA, or MOLTEN
     addFluid(GTMaterials.Radium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Fermium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Oganesson, $FluidStorageKeys.GAS);
     addFluid(GTMaterials.Oganesson, $FluidStorageKeys.PLASMA);
     addFluid(GTMaterials.Sodium, $FluidStorageKeys.GAS);

@@ -61,10 +61,10 @@ event.shaped(
     W:'#c:wrenches'
   })
 
-event.recipes.gtceu.chemical_bath('purest_plutonium_dust')
+event.recipes.gtceu.chemical_bath('plutonium244_dust')
   .itemInputs('4x gtceu:plutonium_241_dust')
   .inputFluids('gtceu:plutonium 1000')
-  .itemOutputs('gtceu:small_purest_plutonium_dust')
+  .itemOutputs('gtceu:small_plutonium244_dust')
   .duration(200)
   .EUt(1000000)
 
@@ -143,6 +143,12 @@ event.shaped(
     B:'gtceu:ev_machine_casing'
   })
 
+event.recipes.gtceu.autoclave('plutonium244_from_liquid')
+  .itemInputs('#forge:dusts/mystery')
+  .inputFluids('gtceu:plutonium244 144')
+  .itemOutputs('1x gtceu:plutonium244_dust')
+
+
 event.recipes.gtceu.cutter('steel_fibers_water')
   .itemInputs('#forge:plates/steel')
   .inputFluids('minecraft:water 3')
@@ -162,7 +168,7 @@ event.recipes.gtceu.cutter('steel_fibers_lubricant')
   .inputFluids('gtceu:lubricant 1')
   .itemOutputs('9x kubejs:steel_fibers')
   .duration(20)
-  .EUt(128)
+  .EUt(128);
 
 event.recipes.gtceu.compressor('layered_steel_threads')
   .itemInputs('63x kubejs:steel_fibers')

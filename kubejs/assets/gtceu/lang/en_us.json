@@ -5,6 +5,7 @@
   "material.gtceu.nasa_grade_soldering_alloy": "NASA-Grade Soldering Alloy",
   "material.gtceu.peek": "Polyether Ether Ketone (PEEK)",
   "material.gtceu.polonium210": "Polonium",
+  "material.gtceu.mystery": "Mystery",
   "material.gtceu.duotonium": "Duotonium",
   "material.gtceu.trinaquadalloy": "Trinaquadalloy",
   "material.gtceu.prismarine": "Prismarine",
@@ -24,9 +25,6 @@
   "material.gtceu.ostrum": "Ostrum",
   "material.gtceu.desh": "Desh",
   "material.gtceu.pig_iron": "Pig Iron",
-  "material.gtceu.radium": "Radium",
-  "material.gtceu.radium223": "Radium 223",
-  "material.gtceu.test": "Oganesson",
   "material.gtceu.venus_calorite_rich_magma": "Venus Calorite-Rich Magma",
   "material.gtceu.mars_ostrum_rich_magma": "Mars Ostrum-Rich Magma",
   "material.gtceu.mercury_ostrum_rich_magma": "Mercury Ostrum-Rich Magma",
@@ -38,9 +36,5 @@
   "material.gtceu.rocket_tier_1": "Tier 1 Rocket Alloy",
   "material.gtceu.rocket_tier_2": "Tier 2 Rocket Alloy",
   "material.gtceu.rocket_tier_3": "Tier 3 Rocket Alloy",
-  "material.gtceu.rocket_tier_4": "Tier 4 Rocket Alloy",
-  "material.gtceu.radum": "Radium",
-  "material.gtceu.radum223": "Radium 223",
-    "material.gtceu.radim": "Radium",
-  "material.gtceu.radim223": "Radium 223"
+  "material.gtceu.rocket_tier_4": "Tier 4 Rocket Alloy"
 }
