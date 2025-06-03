@@ -6,6 +6,17 @@ const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuil
 const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
+    
+    //Solid Properties
+    GTMaterials.Radium.setProperty(PropertyKey.INGOT, new $IngotProperty());
+
+    //Blast Properties
+    //Example - GTMaterials.Material.setPropert
+
+    
+    //Fluid Properties
+    // Can be LIQUID, GAS, PLASMA, or MOLTEN
+    addFluid(GTMaterials.Radium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Oganesson, $FluidStorageKeys.GAS);
     addFluid(GTMaterials.Oganesson, $FluidStorageKeys.PLASMA);
     addFluid(GTMaterials.Sodium, $FluidStorageKeys.GAS);
