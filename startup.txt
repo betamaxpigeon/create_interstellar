@@ -1,0 +1,122 @@
+[18:54:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[18:54:28] [INIT] Loaded plugins:
+[18:54:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:54:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:54:28] [INIT] - dev.wolfieboy09.tfmgjs.TFMGJSPlugin
+[18:54:28] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[18:54:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:54:28] [INIT] - dev.footer.paxeljs.kjs.Plugin
+[18:54:28] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:54:28] [INIT] - dev.aika.taczjs.forge.TaCZJSPlugin
+[18:54:28] [INIT] - net.yxiao233.kubejsthermalaugments.kubejs.ModKubeJSPlugin
+[18:54:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:54:28] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
+[18:54:28] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[18:54:28] [INIT] - dev.bluephs.dgjs.DGJSPlugin
+[18:54:28] [INIT] - net.dakotapride.garnished_kubejs.GarnishedKubejsPlugin
+[18:54:28] [INIT] - com.probejs.ProbeJSPlugin
+[18:54:28] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[18:54:28] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[18:54:28] [INIT] - dev.bluemethyst.cucumberjs.kubejs.Plugin
+[18:54:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[18:54:28] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[18:54:30] [INFO] Loaded script startup_scripts:registries/blocks/blocks.js in 0.114 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/machines.js in 0.002 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/gtceu/materials.js in 0.048 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/gtceu/elements.js in 0.005 s
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#1: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#2: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#3: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty'
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.FluidBuilder'
+[18:54:30] [INFO] registries/gtceu/periodic_table_elements.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys'
+[18:54:30] [INFO] Loaded script startup_scripts:registries/gtceu/periodic_table_elements.js in 0.02 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/mekregistries.js in 0.003 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/tiers.js in 0.003 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/fluids.js in 0.001 s
+[18:54:30] [INFO] Loaded script startup_scripts:registries/items.js in 0.001 s
+[18:54:30] [INFO] Loaded script startup_scripts:misc.js in 0.004 s
+[18:54:30] [INFO] Loaded script startup_scripts:modification.js in 0.0 s
+[18:54:30] [INFO] Loaded script startup_scripts:creative_mode_tabs.js in 0.001 s
+[18:54:30] [INFO] Loaded 12/12 KubeJS startup scripts in 2.557 s with 0 errors and 0 warnings
+[18:54:32] [ERROR] ! registries/gtceu/elements.js#38: Error in 'GTCEuStartupEvents.registry': Cannot convert 1e+100 to java.lang.Long
+[18:54:32] [ERROR] ! …rhino.EvaluatorException: Cannot convert 1e+100 to java.lang.Long (startup_scripts:registries/gtceu/elements.js#38)
+[18:54:32] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+[18:54:32] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
+[18:54:32] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
+[18:54:32] [ERROR] !   at …rhino.Context.reportRuntimeError2(Context.java:150)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaObject.reportConversionError(NativeJavaObject.java:562)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaObject.reportConversionError(NativeJavaObject.java:556)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaObject.toInteger(NativeJavaObject.java:550)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaObject.coerceToNumber(NativeJavaObject.java:479)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaObject.coerceTypeImpl(NativeJavaObject.java:310)
+[18:54:32] [ERROR] !   at …rhino.Context.jsToJava(Context.java:237)
+[18:54:32] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:430)
+[18:54:32] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[18:54:32] [ERROR] !   at script(startup_scripts:registries/gtceu/elements.js:38)
+[18:54:32] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[18:54:32] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[18:54:32] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:54:32] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[18:54:32] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[18:54:32] [ERROR] !   at script(startup_scripts:registries/gtceu/elements.js:58)
+[18:54:32] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[18:54:32] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[18:54:32] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:54:32] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[18:54:32] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[18:54:32] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:54:32] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[18:54:32] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:54:32] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[18:54:32] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[18:54:32] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy118.onEvent(Unknown Source)
+[18:54:32] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[18:54:32] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[18:54:32] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:264)
+[18:54:32] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[18:54:32] [ERROR] !   at com.gregtechceu.gtceu.integration.kjs.GTRegistryInfo.postEvent(GTRegistryInfo.java:166)
+[18:54:32] [ERROR] !   at com.gregtechceu.gtceu.integration.kjs.GTRegistryInfo.registerFor(GTRegistryInfo.java:171)
+[18:54:32] [ERROR] !   at com.gregtechceu.gtceu.common.data.GTElements.init(GTElements.java:165)
+[18:54:32] [ERROR] !   at com.gregtechceu.gtceu.common.CommonProxy.init(CommonProxy.java:115)
+[18:54:32] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60)
+[18:54:32] [ERROR] !   at java.util.concurrent.ConcurrentLinkedDeque.forEach(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35)
+[18:54:32] [ERROR] !   at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+[18:54:32] [ERROR] !   at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210)
+[18:54:32] [ERROR] !   at java.util.Optional.ifPresent(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183)
+[18:54:32] [ERROR] !   at java.lang.Iterable.forEach(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183)
+[18:54:32] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:66)
+[18:54:32] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:86)
+[18:54:32] [ERROR] !   at net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:66)
+[18:54:32] [ERROR] !   at net.minecraft.client.Minecraft.<init>(Unknown Source)
+[18:54:32] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:182)
+[18:54:32] [ERROR] !   at java.lang.reflect.Method.invoke(Unknown Source)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[18:54:32] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[18:54:32] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[18:54:32] [ERROR] !   at java.lang.reflect.Method.invoke(Unknown Source)
+[18:54:32] [ERROR] !   at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67)
+[18:54:32] [ERROR] !   at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+[18:54:32] [ERROR] !   at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+[18:54:32] [ERROR] !   at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+[18:54:32] [ERROR] ! registries/gtceu/periodic_table_elements.js#23: Error in 'GTCEuStartupEvents.registry': ReferenceError: "Fermium" is not defined.
