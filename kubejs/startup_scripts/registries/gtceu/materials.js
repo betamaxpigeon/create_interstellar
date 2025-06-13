@@ -40,6 +40,7 @@ const blast_furnace_double = GTMaterialFlags.BLAST_FURNACE_CALCITE_DOUBLE;
 const blast_furnace_triple = GTMaterialFlags.BLAST_FURNACE_CALCITE_TRIPLE;
 const no_abs_recipe = GTMaterialFlags.DISABLE_ALLOY_BLAST;
 const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
+const all_item_flags = new Array(plates, dense_plate, rod, bolt_and_screw, frame, gear, long_rod, foil, ring, spring, small_spring, small_gear, fine_wire, rotor);
 
 function V(voltage) {
   let v;
@@ -129,6 +130,22 @@ function VHA(voltage) {
   return V;
 }
 
+const ULV = VA('ulv')
+const LV = VA('lv')
+const MV = VA('mv')
+const HV = VA('hv')
+const EV = VA('ev')
+const IV = VA('iv')
+const LuV = VA('luv')
+const ZPM = VA('zpm')
+const UV = VA('uv')
+const UHV = VA('uhv')
+const UEV = VA('uev')
+const UIV = VA('uiv')
+const UXV = VA('uxv')
+const OpV = VA('opv')
+const MAX = VA('max')
+
 function EU(tier) {
   switch(tier) {
       case 'ulv': 8
@@ -151,22 +168,22 @@ function EU(tier) {
 
 function coil(tier) {
   switch(tier) {
-      case 'cupronickel': 1799
-      case 'kanthal': 
-      case 'nichrome':
+      case 'cupronickel': 1799;
+      case 'kanthal': ;
+      case 'nichrome': ;
   }
-}
+};
 
 //Conversions
 const secondsToTicks = (seconds) => seconds * 20;
 const ticksToSeconds = (ticks) => ticks / 20;
 
 //gas tiers
-const nitrogen = 'low'
-const helium = 'mid'
-const argon = 'high'
-const neon = 'higher'
-const krypton = 'highest'
+const nitrogen = 'low';
+const helium = 'mid';
+const argon = 'high';
+const neon = 'higher';
+const krypton = 'highest';
 
 //Subscript Numbers
 //₀₁₂₃₄₅₆₇₈₉
@@ -176,6 +193,17 @@ const krypton = 'highest'
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
+  event.create('infinity')
+    .fluid()
+    .ingot()
+    .element(GTElements.get('infinity'))
+    .iconSet(GTMaterialIconSet.RADIOACTIVE)
+    .color(0x94b1ff)
+    .flags(bolt_and_screw, dense_plate, fine_wire, foil, frame, gear, long_rod, plates, ring, rod, rotor, small_gear, spring, small_spring)
+    .blastTemp(99999, krypton, MAX, secondsToTicks(1e100))
+    .cableProperties(V('max'), 1e100, 0, true)
+    .rotorStats()
+
   event.create('calorite')
     .fluid()
     .ingot()
@@ -183,7 +211,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.METALLIC)
     .color(0xe6443e)
     .flags(plates, foil, dense_plate)
-    .blastTemp(10000, krypton, VA('zpm'), 174020)
+    .blastTemp(10000, krypton, ZPM, 174020)
     .ore(true);
 
   event.create('ostrum')
@@ -192,7 +220,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .element(GTElements.get('ostrum'))
     .iconSet(GTMaterialIconSet.METALLIC)
     .color(0x632e41)
-    .blastTemp(8000, neon, VA('luv'), 130520)
+    .blastTemp(8000, neon, LuV, 130520)
     .flags(plates, foil, dense_plate)
     .ore(true);
 
@@ -202,7 +230,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .element(GTElements.get('desh'))
     .iconSet(GTMaterialIconSet.METALLIC)
     .color(0xFF9C2B)
-    .blastTemp(6000, argon, VA('iv'), 97900)
+    .blastTemp(6000, argon, IV, 97900)
     .flags(plates, foil, dense_plate)
     .ore(true);
 
@@ -249,7 +277,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .fluid()
     .iconSet(GTMaterialIconSet.DULL)
     .color(0x06A178)
-    .components('125x prismarine', '36x neutronium')
+    .components('4x prismarine', '1x neutronium')
     .flags(plates, dense_plate, frame, foil);
 
   event.create('tritonium')
@@ -268,9 +296,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.RADIOACTIVE)
     .color(0xEE00FF)
     .flags(plates, foil, rod, long_rod, gear, small_gear)
-    .blastTemp(49999, krypton, VA(uxv))
+    .blastTemp(49999, krypton, UXV)
     .cableProperties(V('uiv'), 32, 4)
-    .rotorStats(64000, );
+    //.rotorStats(64000, );
 
   event.create('druecium')
     .ingot()
@@ -278,6 +306,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .element(GTElements.get('druecium'))
     .iconSet(GTMaterialIconSet.RADIOACTIVE)
     .color(0x7CBDDE)
+    .flags(plates)
+    .blastTemp()
 
   event.create('uranium_triniobium')
     .ingot()
@@ -286,7 +316,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.BRIGHT)
     .color(0x9D679E)
     .flags(plates, foil, frame, rod, long_rod, bolt_and_screw)
-    .blastTemp(4499, nitrogen, VA('hv'), 100)
+    .blastTemp(4499, nitrogen, HV, 100)
     .cableProperties(V('luv'), 8, 1);
 
   event.create('nasa_grade_soldering_alloy')
@@ -295,7 +325,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('3x soldering_alloy', '5x europium', '1x tritonium', '1x trinium', '2x osmiridium')
     .iconSet(GTMaterialIconSet.DULL)
     .color(0x9D71C9)
-    .blastTemp(14999, krypton, VA('uxv'), 1000)
+    .blastTemp(14999, krypton, UXV, 1000)
     .flags(solder_mat_good)
     .cableProperties(V('uxv'), 256, 0, true);
 
@@ -313,7 +343,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('3x lead', '1x diamond', '2x ender_pearl')
     .color(0x006666)
     .iconSet(GTMaterialIconSet.METALLIC)
-    .blastTemp(3500, nitrogen, VA('ev'), 1500)
+    .blastTemp(3500, nitrogen, EV, 1500)
     .flags(foil, gear, long_rod, plates, rod, rotor, small_gear, ring, frame)
     .cableProperties(V('ev'), 32, 0, true)
     .rotorStats(130, 160, 3, 45600);
@@ -324,7 +354,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('1x silver', '3x copper', '4x redstone')
     .color(0xFF3300)
     .iconSet(GTMaterialIconSet.METALLIC)
-    .blastTemp(1700, nitrogen, VA('mv'), 1200)
+    .blastTemp(1700, nitrogen, MV, 1200)
     .flags(foil, gear, long_rod, plates, rod, rotor, small_gear, ring, frame)
     .cableProperties(V('mv'), 16, 0, true)
     .rotorStats(130, 140, 3, 24000);
@@ -335,7 +365,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('1x black_bronze', '3x signalum')
     .color(0x9933FF)
     .iconSet(GTMaterialIconSet.METALLIC)
-    .blastTemp(4400, helium, VA('iv'), 1800)
+    .blastTemp(4400, helium, IV, 1800)
     .flags(foil, gear, long_rod, plates, rod, rotor, small_gear, ring, frame)
     .cableProperties(V('iv'), 64, 0, true)
     .rotorStats(450, 220, 3, 37600);
@@ -347,7 +377,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(BRIGHT)
     .flags(plates, rod, frame, foil, fine_wire, rotor)
     .components('6x trinium', '2x naquadah', '1x carbon')
-    .blastTemp(8747, neon, VA('uiv'), 1200);
+    .blastTemp(8747, neon, UIV, 1200);
 
   event.create('chorus')
     .dust()
@@ -375,7 +405,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0xFF66FF)
     .flags(frame, plates, dense_plate, foil, rod, long_rod)
-    .blastTemp(14999, argon, VA('uhv'), 10000)
+    .blastTemp(14999, argon, UHV, 10000)
     .cableProperties(V('uev'), 64, 4);
 
   event.create('piglin_gold')
@@ -384,7 +414,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .components('10x gold', '2x naquadrinium', '5x carbon_dioxide')
     .iconSet(GTMaterialIconSet.METALLIC)
     .color(0xE5B80B)
-    .blastTemp(10799, krypton, VA('uev'), 80000);
+    .blastTemp(10799, krypton, UEV, 80000);
 
   event.create('pig_iron')
     .ingot()
@@ -393,7 +423,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0xD18984)
     .flags(plates, frame, rod, long_rod, bolt_and_screw)
-    .blastTemp(750, nitrogen, VA('hv'), 200);
+    .blastTemp(750, null, HV, 200);
 
   event.create('rocket_tier_1')
     .ingot()
@@ -402,7 +432,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0x544854)
     .flags(plates, dense_plate)
-    .blastTemp(4499, helium, VA('ev'), 1700);
+    .blastTemp(4499, helium, EV, 1700);
 
   event.create('rocket_tier_2')
     .ingot()
@@ -411,7 +441,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0xAD701A)
     .flags(plates, dense_plate)
-    .blastTemp(5399, argon, VA('iv'), 2700);
+    .blastTemp(5399, argon, IV, 2700);
 
   event.create('rocket_tier_3')
     .ingot()
@@ -420,7 +450,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0x593B51)
     .flags(plates, dense_plate)
-    .blastTemp(7199, neon, VA('luv'), 3700);
+    .blastTemp(7199, neon, LuV, 3700);
 
   event.create('rocket_tier_4')
     .ingot()
@@ -429,11 +459,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .iconSet(GTMaterialIconSet.DULL)
     .color(0xFC3243)
     .flags(plates, dense_plate)
-    .blastTemp(9000, krypton, VA('zpm'), 3700);
+    .blastTemp(9000, krypton, ZPM, 3700);
 
   event.create('gratnite')
     .dust()
-    .components()
+    .components('')
+    .color(0x6B190D)
+    .ore()
 
   event.create('moon_desh_rich_magma')
     .fluid()
@@ -478,10 +510,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
   event.create('ancient_alloy')
     .ingot()
     .fluid()
-    .components('50x rocket_tier_4', '20x plutonium244', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium', '8x ognesseon')
+    .components('50x rocket_tier_4', '20x plutonium244', '5x trinium', '64x ender_air', '5x helium', '64x tritanium', '1x tritonium', '35x polonium', '2x nasa_grade_soldering_alloy', '6x enderium', '8x oganesson')
     .iconSet(GTMaterialIconSet.RADIOACTIVE)
     .color(0x5E0044)
-    .flags(bolt_and_screw, dense_plate, fine_wire, foil, frame, gear, long_rod, plates, ring, rod, rotor, small_gear, spring, small_spring)
-    .blastTemp(49999, neon, VA('opv'), 200000)
+    .flags(all_item_flags)
+    .blastTemp(49999, neon, OpV, 200000)
     .cableProperties(V('opv'), 4096, 0, true);
 })

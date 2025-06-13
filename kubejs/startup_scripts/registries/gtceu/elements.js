@@ -55,6 +55,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
   elem('oganesson', 118, 176, 'Og²⁹⁴');
   elem('mascoanzium', 119, 180, 'Mz²⁹⁹');
   elem('druecium', 120, 126, 'Du');
+  elem('infinity', 1e1000, 1e1000, '∞');
 })
 GTCEuStartupEvents.registry('gtceu:material', event => {
   GTMaterials.Lead.addFlags(frame)
