@@ -19,4 +19,4 @@ const hand = (size) => {
         console.log(card(randomNumber(2, 13), randomNumber(1, 4)));
     }
 };
-hand(5);
+hand(52);
